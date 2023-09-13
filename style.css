@@ -13,10 +13,25 @@ width: 100%;
 ul{
 background-color: gray;
 border: 2px solid yellow;
+padding-right: 150px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 body{
     font-family: "Roboto Mono";
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.jul
+{
+   background-color: white;
+   color: red; 
+}
+.jan{
+    background-color: yellow;
+    color: white;
+}
+.k{
+    color: white;
 }
