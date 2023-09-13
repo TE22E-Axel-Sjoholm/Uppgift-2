@@ -3,5 +3,20 @@ text-align: center;
 background-color: gray;
 color: beige;
 border: black;
-font-family: "Roboto Mono";
+}
+.rubrik{
+display: flex;
+justify-content: space-between;
+border: 5px solid black;
+width: 100%;
+}
+ul{
+background-color: gray;
+border: 2px solid yellow;
+}
+body{
+    font-family: "Roboto Mono";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
