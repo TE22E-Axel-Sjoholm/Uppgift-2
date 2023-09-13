@@ -9,13 +9,15 @@ display: flex;
 justify-content: space-between;
 border: 5px solid black;
 width: 100%;
+padding-bottom: 20px;
 }
 ul{
+font-size: 10px;
 background-color: gray;
 border: 2px solid yellow;
-padding-right: 150px;
-padding-top: 10px;
-padding-bottom: 10px;
+padding-right: 100px;
+padding-top: 5px;
+padding-bottom: 5px;
 }
 body{
     font-family: "Roboto Mono";
@@ -35,4 +37,25 @@ body{
 }
 .k{
     color: white;
+}
+th{
+    border: 2px solid red;
+    background-color: bisque;
+    font-size: 30px;
+}
+.dagarna{
+    background-color: lightgray;
+    font-size: 15px;
+}
+table {
+    border: 4px solid black;
+    width: 50%;
+    border-collapse: collapse;
+}
+.nere{
+margin-top: 50px;
+margin-right: 500px;
+margin-left: 500px;
+border: 5px solid black;
+
 }
